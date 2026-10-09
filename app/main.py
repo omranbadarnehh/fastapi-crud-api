@@ -26,4 +26,6 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"Hello": "Welcome to "}
+    return {
+        "Hello": "Welcome to fastapi with postgresql database and alembic migration , please check the documentation for more details"
+    }
